@@ -5,14 +5,17 @@
 body {
     background-color: black;
     color: white;
-
 }
 
 .ball {
     height: 100px;
+    
     width: 100px;
     border-radius: 50%;
     cursor: pointer;
+    text-align: center;
+
+    font: 22px bold;
     margin: 50px auto;
     background-color: rgb(116, 94, 255);
 }
