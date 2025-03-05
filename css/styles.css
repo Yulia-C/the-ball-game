@@ -9,7 +9,7 @@ body {
 
 .ball {
     height: 100px;
-    
+
     width: 100px;
     border-radius: 50%;
     cursor: pointer;
@@ -17,5 +17,6 @@ body {
 
     font: 22px bold;
     margin: 50px auto;
+    transition: 1s;
     background-color: rgb(116, 94, 255);
 }
