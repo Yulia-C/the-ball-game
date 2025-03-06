@@ -1,7 +1,7 @@
 'use strict'
 
-function onBallClick() {
-    const elBall = document.querySelector('.ball')
+function onBallClick(ev,maxDiameter) {
+    const elBall = ev.target
     const randSize = getRandomInt(20,60)
     const randColor = getRandomColor()
     elBall.style.backgroundColor = randColor
@@ -20,7 +20,7 @@ function onBallClick() {
     elBall.innerText = newHeight + newWidth
 
 
-    if (elDiameter > 400) {
+    if (elDiameter > maxDiameter) {
         elBall.style.width = 100 + `px`
         elBall.style.height = 100 + `px`
         elBall.innerText = 100
