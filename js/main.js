@@ -4,9 +4,10 @@ function onBallClick() {
     const elBall = document.querySelector('.ball')
     var currWidth = parseInt(elBall.style.width) || 100
     var currHeight = parseInt(elBall.style.height) || 100
+    const randSize = getRandomInt(20,60)
 
-    var newWidth = currWidth + 50
-    var newHeight = currHeight + 50
+    var newWidth = currWidth + randSize
+    var newHeight = currHeight + randSize
     var elDiameter = newWidth + newHeight
 
 
